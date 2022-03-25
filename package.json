@@ -1,0 +1,25 @@
+{
+  "name": "ulbi-tv-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslan-bekshenev/ulbi-tv-telegram-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruslan-bekshenev/ulbi-tv-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/ruslan-bekshenev/ulbi-tv-telegram-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.15"
+  }
+}
